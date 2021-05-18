@@ -1,6 +1,15 @@
-# README - template
+# fsd2-application-ui
 
-(run `docker-compose run ui npm update` first)
+Prototype UI to illustrate a possible solution space for the FSD project, in terms of enabling
+potential Applicants to locate and apply for Funds.
+
+Part of the fsd-proto-2 project.
+
+The "living" backlog for this project can be found in the
+[Prototype Backlog](docs/prototype-backlog.md) document.
+
+PLEASE NOTE This is a PROTOTYPE and therefore disposable. There are no tests. There are no
+Code Reviews. Just prototype code.
 
 ## Working with the project
 
