@@ -49,7 +49,7 @@ module.exports = (env, argv) => {
     baseConfig.devtool = 'source-map'
     baseConfig.devServer = {
       host: '0.0.0.0',
-      port: 8080,
+      port: 8081,
       compress: true,
       contentBase: PATHS.output,
       historyApiFallback: true,

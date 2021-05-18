@@ -46,7 +46,7 @@ docker-compose run ui npm install
 $ docker-compose up
 ```
 
-The ui service will be exposed at http://localhost:8080/
+The ui service will be exposed at http://localhost:8081/
 
 ### Interact!
 

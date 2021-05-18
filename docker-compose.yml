@@ -8,6 +8,7 @@ services:
       # exposed "into" the JS / React app.
       API_HOST: http://localhost:8000
     ports:
-      - "8080:8080"
+      # Service port needs to match 8081 also for Webpack HMR to work
+      - "8081:8081"
     volumes:
       - .:/usr/src/app
