@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <>
-      <h1>Fund Application UI (FSD-Proto-2) v0.1</h1>
+      <h1>Fund Application UI (FSD-Proto-2) v0.2</h1>
       <h2>Available Funds</h2>
       {fundPublishedEvents.length ? (
         fundPublishedEvents.map((eventData, idx) => (
