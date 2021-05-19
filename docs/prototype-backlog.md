@@ -11,7 +11,7 @@ Once completed the checkbox next to the item will be checked.
 
 - [ ] Ops: Stand up a publicly accessible service in cloud
 
-- [ ] Rework event processing logic to extract the informational messages from the event data (not hardcoded in template file)
+- [x] Rework event processing logic to extract the informational messages from the event data (not hardcoded in template file)
 
 - [ ] Applicant: I can select a Fund for Application and I see a skeleton Form 
 
