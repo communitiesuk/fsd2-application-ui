@@ -1,6 +1,12 @@
 import React from 'react'
 
-const SUMMARY_STATEMENT_ORDER = ['fundType', 'deliveryMethod', 'applicantTypes']
+const SUMMARY_STATEMENT_ORDER = [
+  'isCompetitiveFund',
+  'deliveryMethod',
+  'applicantTypes',
+  'capitalSpend',
+  'ringfenced',
+]
 
 export const FundSummary = ({ fund }) => {
   const summary = fund.summary

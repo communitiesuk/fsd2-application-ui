@@ -15,8 +15,4 @@ Once completed the checkbox next to the item will be checked.
 
 - [ ] Applicant: I can select a Fund for Application and I see a skeleton Form 
 
-- [ ] Applicant: For Direct Award fund, we also see the "strategic fit" question (FIRST)
-
-- [ ] Applicant: For intermediaries + Ringfenced Yes, we see "Strategic Fit" question
-
-- [ ] Applicant: For intermediaries + Ringfenced No, we do not see "Strategic Fit" question
+- [ ] Applicant: The Application Questions payload is manifested in a form
