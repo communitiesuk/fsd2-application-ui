@@ -13,6 +13,6 @@ Once completed the checkbox next to the item will be checked.
 
 - [x] Rework event processing logic to extract the informational messages from the event data (not hardcoded in template file)
 
-- [ ] Applicant: I can select a Fund for Application and I see a skeleton Form 
+- [x] Applicant: I can select a Fund for Application and I see a skeleton Form 
 
-- [ ] Applicant: The Application Questions payload is manifested in a form
+- [x] Applicant: The Application Questions payload is manifested in a form

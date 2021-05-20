@@ -8,7 +8,7 @@ const SUMMARY_STATEMENT_ORDER = [
   'ringfenced',
 ]
 
-export const FundSummary = ({ fund }) => {
+export const FundSummary = ({ fund, startFundApplication }) => {
   const summary = fund.summary
 
   return (
@@ -21,6 +21,13 @@ export const FundSummary = ({ fund }) => {
               return <p key={idx}>{summary[statementKey]}</p>
             }
           })}
+          <button
+            type="button"
+            className="btn btn-success"
+            onClick={() => startFundApplication(fund)}
+          >
+            Apply for fund
+          </button>
         </>
       ) : (
         ''
