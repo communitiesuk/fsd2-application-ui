@@ -6,6 +6,12 @@ const getEvents = (eventType, callback) => {
   })
 }
 
+const deleteEvents = (eventType, callback) => {
+  axios.delete(`${EVENT_HUB_API_URL}/events/${eventType}`).then((response) => {
+    callback(response.status)
+  })
+}
+
 export const getFunds = (callback) => {
   /*
    * We are still persisting this myth that we can map straight from 'fundPublished' event to actual fund
@@ -19,5 +25,11 @@ export const getFunds = (callback) => {
     })
 
     callback(funds)
+  })
+}
+
+export const clearFunds = (callback) => {
+  deleteEvents('fundPublished', (status) => {
+    callback(status === 204)
   })
 }
