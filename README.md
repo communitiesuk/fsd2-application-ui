@@ -50,3 +50,16 @@ The ui service will be exposed at http://localhost:8081/
 
 ### Interact!
 
+#### Clearing down Fund types
+
+It is possible to delete all the fund types. To do so, visit the URL but with the added
+query string `?showControls=yes`, so for example http://localhost:8081/?showControls=yes
+
+Doing so will yield a large yellow "Clear all Available Funds" button at the top of the
+screen. Clicking this button will send a DELETE request to the Event Hub.
+
+BEWARE: No confirmation is sought! It is instant.
+
+The facility is intended to enable users to control the demo domain without tech
+intervention.
+
